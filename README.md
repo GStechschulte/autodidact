@@ -1,2 +1,2 @@
-# AppliedSkills
-Applied Statistics, Linear Algebra, Science and Technology through experimentation in programming languages
+# Self Learning
+Applied Statistics, Probability, Linear Algebra, Science and Technology through experimentation in programming languages
