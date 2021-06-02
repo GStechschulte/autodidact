@@ -1,13 +1,17 @@
-# Self Learning through experimentation in programming languages
+# Self Learning
+
+Primarily through experimentation in programming languages
 
 ## Applied Statistics
 
-Critical Theorems and Laws. Mainly Nassim Taleb MOOC material at the moment
+Key Theorems and Laws. Mainly Nassim Taleb MOOC material at the moment [Statistics](Statistics)
 
 ## Probability and Information Theory
 
 ## Linear Algebra
 
-The Essence of Linear Algebra - Refresher on first principles
+The Essence of [Linear Algebra](Linear_Algebra)
+
+Linear Algebra - Refresher on first principles
 
 ## Science and Technology 
