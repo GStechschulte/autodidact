@@ -4,20 +4,24 @@ A place for programming and experimenting with the things I find interesting at 
 
 What this is not: Tutorials
 
-## Applied Statistics
+## Applied [Statistics](Statistics)
 
-Key Theorems and Laws - [Statistics](Statistics)
+Key Theorems and Laws
 
-## Probability and Information Theory
+## [Probability](Probability) and [Information Theory](Information_Theory)
 
-[Probability](Probability) and [Information_Theory](Information_Theory)
+Will probably be mainly Bayesian material
 
-## Linear Algebra
+## [Linear Algebra](Linear_Algebra)
 
-The Essence of [Linear Algebra](Linear_Algebra)
+A refresher on first principles
 
-Linear Algebra - Refresher on first principles
+## [Machine Learning From Scratch](ML_Scratch)
 
-## Science and Technology 
+Common ML algorithms and concepts implemented from scratch
+
+## Science and Technology
+
+Things I find interesting
 
 ## Microeconomics
