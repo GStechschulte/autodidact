@@ -16,7 +16,7 @@ Key Theorems, Laws, and algorithms
 
 Will probably be mainly Bayesian material
  - [KL Divergence](Probability/KL_Divergence.ipynb)
- - [Mutual Information](Mutual_Information.ipynb)
+ - [Mutual Information](Probability/Mutual_Information.ipynb)
 
 ## [Linear Algebra](Linear_Algebra)
 
@@ -41,4 +41,7 @@ Common ML algorithms and concepts implemented from scratch
 
 Things I find interesting
 
-## Microeconomics
+## [Microeconomics](Microeconomics)
+
+[Price Elasticity of Demand](Microeconomics/PriceElasticityDemand)
+ - A very, very brief review on price elasticity of demand (PED)
