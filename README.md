@@ -21,7 +21,7 @@ Will probably be mainly Bayesian material
 ## [Linear Algebra](Linear_Algebra)
 
 A refresher on first principles
- - [Cross, Inner, and Outer Products](Linear_Algebra/CrossInnerOuter_Products.ipynb)
+ - [Cross, Inner, Outer, and Dot Products](Linear_Algebra/CrossInnerOuter_Products.ipynb)
  - [Linear Combinations, Spans, and Basis Vectors](Linear_Algebra/LinearCombinations_Span_Basis.ipynb)
  - [Inverse Matrices, Rank, and Null Space](Linear_Algebra/Inverse_ColumnNullSpace.ipynb)
  - [Matrix Multiplication as a Composition](Linear_Algebra/MatrixMult_Transformations.ipynb)
