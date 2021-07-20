@@ -43,5 +43,5 @@ Things I find interesting
 
 ## [Microeconomics](Microeconomics)
 
-[Price Elasticity of Demand](Microeconomics/PriceElasticityDemand)
- - A very, very brief review on price elasticity of demand (PED)
+[Bayesian Demand Uncertainty and Forecasting](Microeconomics/BayesianDemandUncertainty.ipynb)
+ - A very, very simple model on demand forecasting and uncertainty with PyMC3
