@@ -1,10 +1,10 @@
-# Self Learning
+## Self Learning
 
 A place for programming and experimenting with the things I find interesting at any particular moment in time. 
 
 What this is not: Tutorials
 
-## [Applied Statistics](Statistics)
+### [Applied Statistics](Statistics)
 
 Key Theorems, Laws, and algorithms
  - [Central Limit Theorem](Statistics/CentralLimitTheorem.ipynb)
@@ -12,13 +12,13 @@ Key Theorems, Laws, and algorithms
  - [Law of Large Numbers](Statistics/LawLargeNumbers.ipynb)
  - [MLE and MAP](Statistics/MLE.ipynb)
 
-## [Probability](Probability) and [Information Theory](Information_Theory)
+### [Probability](Probability) and [Information Theory](Information_Theory)
 
 Will probably be mainly Bayesian material
  - [KL Divergence](Probability/KL_Divergence.ipynb)
  - [Mutual Information](Probability/Mutual_Information.ipynb)
 
-## [Linear Algebra](Linear_Algebra)
+### [Linear Algebra](Linear_Algebra)
 
 A refresher on first principles
  - [Cross, Inner, Outer, and Dot Products](Linear_Algebra/CrossInnerOuter_Products.ipynb)
@@ -29,7 +29,7 @@ A refresher on first principles
  - [3d Linear Transformations](Linear_Algebra/3dLinearTransformations.ipynb)
  - [Abstract Vector Spaces](Linear_Algebra/AbstactVectorSpaces.ipynb)
 
-## [Machine Learning From Scratch](ML_Scratch)
+### [Machine Learning From Scratch](ML_Scratch)
 
 Common ML algorithms and concepts implemented from scratch
  - [Logistic Regression](ML_Scratch/LogisticRegression.ipynb)
@@ -37,11 +37,11 @@ Common ML algorithms and concepts implemented from scratch
  - [Gradient Descent](ML_Scratch/GradientDescent.ipynb)
  - [Kernel Functions](ML_Scratch/KernelFunctions.ipynb)
 
-## Science and Technology
+### Science and Technology
 
 Things I find interesting
 
-## [Microeconomics](Microeconomics)
+### [Microeconomics](Microeconomics)
 
 [Bayesian Demand Uncertainty and Forecasting](Microeconomics/BayesianDemandUncertainty.ipynb)
  - A very, very simple model on demand forecasting and uncertainty with PyMC3
