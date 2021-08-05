@@ -17,6 +17,7 @@ Key Theorems, Laws, and algorithms
 Will probably be mainly Bayesian material
  - [KL Divergence](Probability/KL_Divergence.ipynb)
  - [Mutual Information](Probability/Mutual_Information.ipynb)
+ - [Fundamental Theorem of Calculus](Probability/Fundamental_Theorem_Calculus.ipynb)
 
 ### [Linear Algebra](Linear_Algebra)
 
