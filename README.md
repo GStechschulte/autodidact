@@ -46,3 +46,5 @@ Things I find interesting
 
 [Bayesian Demand Uncertainty and Forecasting](Microeconomics/BayesianDemandUncertainty.ipynb)
  - A very, very simple model on demand forecasting and uncertainty with PyMC3
+
+[Solving microeconomic optimization problems with JAX](Microeconomics/Optimization_JAX.ipynb)
