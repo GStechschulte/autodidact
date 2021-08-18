@@ -17,7 +17,8 @@ Key Theorems, Laws, and algorithms
 Will probably be mainly Bayesian material
  - [KL Divergence](Probability/KL_Divergence.ipynb)
  - [Mutual Information](Probability/Mutual_Information.ipynb)
- - [Fundamental Theorem of Calculus](Probability/Fundamental_Theorem_Calculus.ipynb)
+ - [Fundamental Theorem of Calculus](Probability/Fundamental_Theorem_Calculus.ipynb) and its relation to the $pdf$ and $cdf$
+ - [MCMC First principles](Probability/MCMC.ipynb)
 
 ### [Linear Algebra](Linear_Algebra)
 
@@ -48,3 +49,5 @@ Things I find interesting
  - A very, very simple model on demand forecasting and uncertainty with PyMC3
 
 [Solving microeconomic optimization problems with JAX](Microeconomics/Optimization_JAX.ipynb)
+
+[Price Elasticity of Demand with Bayesian Linear Regression](PriceElasticityDemand/)
