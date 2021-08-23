@@ -10,7 +10,7 @@ Key Theorems, Laws, and algorithms
  - [Central Limit Theorem](Statistics/CentralLimitTheorem.ipynb)
  - [Correlation](Statistics/Correlation.ipynb)
  - [Law of Large Numbers](Statistics/LawLargeNumbers.ipynb)
- - [MLE and MAP](Statistics/MLE.ipynb)
+ - [MLE and MAP](Statistics/MLE_MAP.ipynb)
 
 ### [Probability](Probability) and [Information Theory](Information_Theory)
 
@@ -31,13 +31,15 @@ A refresher on first principles
  - [3d Linear Transformations](Linear_Algebra/3dLinearTransformations.ipynb)
  - [Abstract Vector Spaces](Linear_Algebra/AbstactVectorSpaces.ipynb)
 
-### [Machine Learning From Scratch](ML_Scratch)
+### [Vanilla Machine Learning from Scratch](ML_Scratch)
 
 Common ML algorithms and concepts implemented from scratch
  - [Logistic Regression](ML_Scratch/LogisticRegression.ipynb)
  - [Generative Classifer](ML_Scratch/KDE.ipynb)
  - [Gradient Descent](ML_Scratch/GradientDescent.ipynb)
  - [Kernel Functions](ML_Scratch/KernelFunctions.ipynb)
+ - [Gaussian Processes](ML_Scratch/GaussianProcessees.ipynb)
+
 
 ### Science and Technology
 
