@@ -29,7 +29,7 @@ A refresher on first principles
  - [Matrix Multiplication as a Composition](Linear_Algebra/MatrixMult_Transformations.ipynb)
  - [The Determinant](Linear_Algebra/Determinant.ipynb)
  - [3d Linear Transformations](Linear_Algebra/3dLinearTransformations.ipynb)
- - [Abstract Vector Spaces](Linear_Algebra/AbstactVectorSpaces.ipynb)
+ - [Abstract Vector Spaces](Linear_Algebra/AbstractVectorSpaces.ipynb)
 
 ### [Vanilla Machine Learning from Scratch](ML_Scratch)
 
