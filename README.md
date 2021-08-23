@@ -38,7 +38,7 @@ Common ML algorithms and concepts implemented from scratch
  - [Generative Classifer](ML_Scratch/KDE.ipynb)
  - [Gradient Descent](ML_Scratch/GradientDescent.ipynb)
  - [Kernel Functions](ML_Scratch/KernelFunctions.ipynb)
- - [Gaussian Processes](ML_Scratch/GaussianProcessees.ipynb)
+ - [Gaussian Processes](ML_Scratch/GaussianProcesses.ipynb)
 
 
 ### Science and Technology
