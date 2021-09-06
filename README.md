@@ -30,6 +30,7 @@ A refresher on first principles
  - [The Determinant](Linear_Algebra/Determinant.ipynb)
  - [3d Linear Transformations](Linear_Algebra/3dLinearTransformations.ipynb)
  - [Abstract Vector Spaces](Linear_Algebra/AbstractVectorSpaces.ipynb)
+ - [Singular Value Decomposition](Linear_Algebra/SVD.ipynb)
 
 ### [Vanilla Machine Learning from Scratch](ML_Scratch)
 
