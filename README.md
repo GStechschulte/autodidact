@@ -2,8 +2,6 @@
 
 A place for programming and experimenting with the things I find interesting at any particular moment in time. 
 
-What this is not: Tutorials
-
 ### [Applied Statistics](Statistics)
 
 Key Theorems, Laws, and algorithms
@@ -11,13 +9,14 @@ Key Theorems, Laws, and algorithms
  - [Correlation](Statistics/Correlation.ipynb)
  - [Law of Large Numbers](Statistics/LawLargeNumbers.ipynb)
  - [MLE and MAP](Statistics/MLE_MAP.ipynb)
+ - [Epidemiology](Statistics/Epidemiology.ipynb)
 
 ### [Probability](Probability) and [Information Theory](Information_Theory)
 
 Will probably be mainly Bayesian material
  - [KL Divergence](Probability/KL_Divergence.ipynb)
  - [Mutual Information](Probability/Mutual_Information.ipynb)
- - [Fundamental Theorem of Calculus](Probability/Fundamental_Theorem_Calculus.ipynb) and its relation to the $pdf$ and $cdf$
+ - [Fundamental Theorem of Calculus](Probability/Fundamental_Theorem_Calculus.ipynb) and its relation to the pdf and cdf
  - [MCMC First principles](Probability/MCMC.ipynb)
 
 ### [Linear Algebra](Linear_Algebra)
