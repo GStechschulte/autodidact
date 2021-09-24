@@ -22,13 +22,14 @@ Will probably be mainly Bayesian material
 ### [Linear Algebra](Linear_Algebra)
 
 A refresher on first principles
- - [Cross, Inner, Outer, and Dot Products](Linear_Algebra/CrossInnerOuter_Products.ipynb)
- - [Linear Combinations, Spans, and Basis Vectors](Linear_Algebra/LinearCombinations_Span_Basis.ipynb)
- - [Inverse Matrices, Rank, and Null Space](Linear_Algebra/Inverse_ColumnNullSpace.ipynb)
- - [Matrix Multiplication as a Composition](Linear_Algebra/MatrixMult_Transformations.ipynb)
+ - [Cross, Inner, Outer, and Dot Products](Linear_Algebra/Cross-Inner-Outer-Products.ipynb)
+ - [Linear Combinations, Spans, and Basis Vectors](Linear_Algebra/Linear-Combinations-Span-Basis.ipynb)
+ - [Solving systems of equations with Inverse Matrices, Rank, and Null Space](Inverse-Column-Null-Space.ipynb)
+ - [Matrix Multiplication as a Composition](Linear_Algebra/Matrix-Multiplication-Transformations.ipynb)
  - [The Determinant](Linear_Algebra/Determinant.ipynb)
- - [3d Linear Transformations](Linear_Algebra/3dLinearTransformations.ipynb)
- - [Abstract Vector Spaces](Linear_Algebra/AbstractVectorSpaces.ipynb)
+ - [3d Linear Transformations](Linear_Algebra/3d-Linear-Transformations.ipynb)
+ - [Abstract Vector Spaces](Linear_Algebra/Abstract-Vector-Spaces.ipynb)
+ - [Eigenvectors and Eigenvalues](Linear_Algebra/Eigenvectors-Eigenvalues.ipynb)
  - [Singular Value Decomposition](Linear_Algebra/SVD.ipynb)
 
 ### [Vanilla Machine Learning from Scratch](ML_Scratch)
