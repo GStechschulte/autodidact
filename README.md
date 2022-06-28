@@ -1,6 +1,6 @@
 ## Self Learning
 
-A place for programming and experimenting with the things I find interesting at any particular moment in time. 
+A place for programming and experimenting with things I find interesting at any particular moment in time. 
 
 ### [Applied Statistics](Statistics)
 
@@ -13,10 +13,9 @@ Key Theorems, Laws, and algorithms
 
 ### [Probability](Probability) and [Information Theory](Information_Theory)
 
-Will probably be mainly Bayesian material
  - [KL Divergence](Probability/KL_Divergence.ipynb)
  - [Mutual Information](Probability/Mutual_Information.ipynb)
- - [Fundamental Theorem of Calculus](Probability/Fundamental_Theorem_Calculus.ipynb) and its relation to the pdf and cdf
+ - [Fundamental Theorem of Calculus](Probability/Fundamental_Theorem_Calculus.ipynb)
  - [MCMC First principles](Probability/MCMC.ipynb)
 
 ### [Linear Algebra](Linear_Algebra)
@@ -41,16 +40,7 @@ Common ML algorithms and concepts implemented from scratch
  - [Kernel Functions](ML_Scratch/KernelFunctions.ipynb)
  - [Gaussian Processes](ML_Scratch/GaussianProcesses.ipynb)
 
-
-### Science and Technology
-
-Things I find interesting
-
 ### [Microeconomics](Microeconomics)
 
-[Bayesian Demand Uncertainty and Forecasting](Microeconomics/BayesianDemandUncertainty.ipynb)
- - A very, very simple model on demand forecasting and uncertainty with PyMC3
-
-[Solving microeconomic optimization problems with JAX](Microeconomics/Optimization_JAX.ipynb)
-
-[Price Elasticity of Demand with Bayesian Linear Regression](PriceElasticityDemand/)
+- [Bayesian Demand Uncertainty and Forecasting](Microeconomics/BayesianDemandUncertainty.ipynb)
+- [Solving microeconomic optimization problems with JAX](Microeconomics/Optimization_JAX.ipynb)
