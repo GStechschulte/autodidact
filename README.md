@@ -1,46 +1,43 @@
 ## Self Learning
 
-A place for programming and experimenting with things I find interesting at any particular moment in time. 
+A place for programming and experimenting with various methods and algorithms.
 
-### [Applied Statistics](Statistics)
+### Probability and Statistics
 
 Key Theorems, Laws, and algorithms
- - [Central Limit Theorem](Statistics/CentralLimitTheorem.ipynb)
- - [Correlation](Statistics/Correlation.ipynb)
- - [Law of Large Numbers](Statistics/LawLargeNumbers.ipynb)
- - [MLE and MAP](Statistics/MLE_MAP.ipynb)
- - [Epidemiology](Statistics/Epidemiology.ipynb)
+ - [Central Limit Theorem](statistics/central_limit_theorem.ipynb)
+ - [Correlation](statistics/correlation.ipynb)
+ - [Law of Large Numbers](statistics/law_of_large_numbers.ipynb)
+ - [MLE and MAP](statistics/mle_map.ipynb)
+ - [Epidemiology](statistics/epidemiology.ipynb)
+ - [KL Divergence](probability/kl_divergence.ipynb)
+ - [Fundamental Theorem of Calculus](probability/fundamental_theorem_calculus.ipynb)
+ - [MCMC First principles](probability/mcmc.ipynb)
 
-### [Probability](Probability) and [Information Theory](Information_Theory)
-
- - [KL Divergence](Probability/KL_Divergence.ipynb)
- - [Mutual Information](Probability/Mutual_Information.ipynb)
- - [Fundamental Theorem of Calculus](Probability/Fundamental_Theorem_Calculus.ipynb)
- - [MCMC First principles](Probability/MCMC.ipynb)
-
-### [Linear Algebra](Linear_Algebra)
+### Linear Algebra
 
 A refresher on first principles
- - [Cross, Inner, Outer, and Dot Products](Linear_Algebra/Cross-Inner-Outer-Products.ipynb)
- - [Linear Combinations, Spans, and Basis Vectors](Linear_Algebra/Linear-Combinations-Span-Basis.ipynb)
+ - [Cross, Inner, Outer, and Dot Products](linear_algebra/Cross-Inner-Outer-Products.ipynb)
+ - [Linear Combinations, Spans, and Basis Vectors](linear_algebra/Linear-Combinations-Span-Basis.ipynb)
  - [Solving systems of equations with Inverse Matrices, Rank, and Null Space](Inverse-Column-Null-Space.ipynb)
- - [Matrix Multiplication as a Composition](Linear_Algebra/Matrix-Multiplication-Transformations.ipynb)
- - [The Determinant](Linear_Algebra/Determinant.ipynb)
- - [3d Linear Transformations](Linear_Algebra/3d-Linear-Transformations.ipynb)
- - [Abstract Vector Spaces](Linear_Algebra/Abstract-Vector-Spaces.ipynb)
- - [Eigenvectors and Eigenvalues](Linear_Algebra/Eigenvectors-Eigenvalues.ipynb)
- - [Singular Value Decomposition](Linear_Algebra/SVD.ipynb)
+ - [Matrix Multiplication as a Composition](linear_algebra/Matrix-Multiplication-Transformations.ipynb)
+ - [The Determinant](linear_algebra/Determinant.ipynb)
+ - [3d Linear Transformations](linear_algebra/3d-Linear-Transformations.ipynb)
+ - [Abstract Vector Spaces](linear_algebra/Abstract-Vector-Spaces.ipynb)
+ - [Eigenvectors and Eigenvalues](linear_algebra/Eigenvectors-Eigenvalues.ipynb)
+ - [Singular Value Decomposition](linear_algebra/SVD.ipynb)
 
-### [Vanilla Machine Learning from Scratch](ML_Scratch)
+### Machine Learning from Scratch
 
 Common ML algorithms and concepts implemented from scratch
- - [Logistic Regression](ML_Scratch/LogisticRegression.ipynb)
- - [Generative Classifer](ML_Scratch/KDE.ipynb)
- - [Gradient Descent](ML_Scratch/GradientDescent.ipynb)
- - [Kernel Functions](ML_Scratch/KernelFunctions.ipynb)
- - [Gaussian Processes](ML_Scratch/GaussianProcesses.ipynb)
+ - [Logistic Regression](vanilla_ml/logistic_regression.ipynb)
+ - [Generative Classifer](vanilla_ml/kde.ipynb)
+ - [Gradient Descent](vanilla_ml/gradient_descent.ipynb)
+ - [Kernel Functions](vanilla_ml/kernel_functions.ipynb)
+ - [Gaussian Processes](vanilla_ml/gaussian_processes.ipynb)
 
-### [Microeconomics](Microeconomics)
+### Microeconomics
 
-- [Bayesian Demand Uncertainty and Forecasting](Microeconomics/BayesianDemandUncertainty.ipynb)
-- [Solving microeconomic optimization problems with JAX](Microeconomics/Optimization_JAX.ipynb)
+- [Bayesian Demand Uncertainty and Forecasting](microeconomics/bayesian_demand_uncertainty.ipynb)
+- [Solving microeconomic optimization problems with JAX](microeconomics/jax_optimization.ipynb)
+- [Ride Hailing Services Regression Discontinuity](microeconomics/regression-discontinuity/)
