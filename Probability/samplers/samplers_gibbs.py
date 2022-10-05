@@ -7,7 +7,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 
-def plot(x_samples_gibbbs, z_samples_gibbs, n_iterations, n_evals=500):
+def plot_samples(x_samples_gibbbs, z_samples_gibbs, n_iterations):
 
     colors = ["tab:blue" if z else "tab:red" for z in z_samples_gibbs]
     fig, axs = plt.subplots()
@@ -18,9 +18,9 @@ def plot(x_samples_gibbbs, z_samples_gibbs, n_iterations, n_evals=500):
         )
     axs.set_xlabel("Sample number")
     axs.set_ylabel("Value of $x$")
+    axs.set_title("Trace History of Samples")
 
     plt.show()
-
 
 
 def plot_gibbs(trace_hist, probs, scales, mus, xmin, xmax, n_iters, n_eval=500):
@@ -31,34 +31,26 @@ def plot_gibbs(trace_hist, probs, scales, mus, xmin, xmax, n_iters, n_eval=500):
         )
 
     x_eval = torch.linspace(xmin, xmax, n_eval)
-    #kde_eval = pml.kdeg(x_eval[:, None], trace_hist[:, None], h)
     px = torch.exp(norm_mixture.log_prob(x_eval))
+    sample_px = torch.exp(norm_mixture.log_prob(trace_hist))
+    sorted_trace, indices = torch.sort(trace_hist)
 
     fig = plt.figure(figsize=(12, 5))
     ax = plt.axes(projection='3d')
 
     ax.plot(torch.arange(n_iters), trace_hist)
     ax.plot(torch.zeros(n_eval), x_eval, px, c="tab:red", linewidth=2)
-    #ax.plot(np.zeros(n_eval), x_eval, kde_eval, c="tab:blue")
+    ax.plot(torch.zeros(n_iters), sorted_trace, sample_px[indices], c="tab:blue")
 
-    #ax.set_zlim(0, kde_eval.max() * 1.2)
     ax.set_xlabel("Iterations", fontsize=None)
     ax.set_ylabel("Samples", fontsize=None)
-
     plt.show()
 
-
-def true_distribution(mixture_probs, mus, scales):
-
-    return dist.MixtureSameFamily(
-        mixture_distribution=dist.Categorical(probs=mixture_probs),
-        component_distribution=dist.Normal(loc=mus, scale=scales)
-        )
 
 def gibbs_sampler(x0, z0, kv, probs, mu, scale, n_iterations, rng_key=None):
     """
     implements the gibbs sampling algorithm for known params. of
-    a GMM
+    a 1d GMM
     """
 
     x_current = x0
@@ -69,23 +61,14 @@ def gibbs_sampler(x0, z0, kv, probs, mu, scale, n_iterations, rng_key=None):
      
     for n in range(1, n_iterations):
 
-        # new_x = dist.Normal(curr_y / 2, torch.sqrt(3/4))
-        # new_y = dist.Normal(new_x / 2, torch.sqrt(3/4))
-
-        # num. of Bayes
+        # likelihood --> p(Z = k | X = x)
         probs_z = torch.exp(dist.Normal(loc=mu, scale=scale).log_prob(x_current))
+        # prior * likelihood --> p(X = x | Z = k) * p(Z = k)
         probs_z *= probs
         # denom. of Bayes
         probs_z = probs_z / torch.sum(probs_z)
-        #print(probs_z)
-
-        # z_current = np.random.choice(keys[n], kv, probs_z)
-
-        if probs_z[-1] > probs_z[0]:
-             z_current =  kv[-1]
-        else:
-            z_current = kv[0]
-
+        z_current = kv[-1] if probs_z[-1] > probs[0] else kv[0]
+        # draw new sample X conditioned on k
         x_current = dist.Normal(loc=mu[z_current], scale=scale[z_current]).sample()
 
         x_samples[n] = x_current
@@ -97,28 +80,27 @@ def gibbs_sampler(x0, z0, kv, probs, mu, scale, n_iterations, rng_key=None):
 
 def main(args):
 
-    x0, z0 = torch.tensor(20.), torch.tensor(0.) ## initial parameter value
+    # initial parameter values
+    x0, z0 = torch.tensor(20.), torch.tensor(0.)
+    # for indexing
     kv = np.arange(2)
 
     mixture_probs = torch.tensor([0.3, 0.7])
     mus = torch.tensor([-20., 20.])
     scales = torch.tensor([10., 10.])
 
-    n_iters = args.iters
-    tau = torch.tensor(args.tau)
+    x_samples, z_samples = gibbs_sampler(
+        x0, z0, kv, mixture_probs, mus, scales, args.iters
+        )
 
-    #mixture_distribution = true_distribution(mixture_probs, mus, scales)
-    x_samples, z_samples = gibbs_sampler(x0, z0, kv, mixture_probs, mus, scales, n_iters)
-
-    plot_gibbs(x_samples, mixture_probs, scales, mus, -100, 100, n_iters)
+    plot_gibbs(x_samples, mixture_probs, scales, mus, -100, 100, args.iters)
+    plot_samples(x_samples, z_samples, args.iters)
     
-
 
 if __name__ == '__main__':
     
     parser = argparse.ArgumentParser(description='rw-mh')
     parser.add_argument('--iters', type=int, default=1000)
-    parser.add_argument('--tau', type=float, default=1.)
     args = parser.parse_args()
 
     main(args)
