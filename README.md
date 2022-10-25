@@ -17,6 +17,10 @@ A place for programming and experimenting with various methods and algorithms.
  - [Epidemiology](statistics/epidemiology.ipynb)
  - [Variational Inference - ELBO](probability/vi_elbo.py)
  - [MCMC Approximation](probability/monte_carlo_approximation.py)
+ - [Metropolis-Hastings](probability/samplers/samplers_metroplis_hasting_v2.py)
+ - [Gibbs sampling a 2d GMM](probability/samplers/samplers_gibbs_2d_gmm.py)
+ - [Hamiltonian Monte Carlo](probability/samplers/samplers_hmc.py)
+
 
 ### Linear Algebra
 
@@ -38,11 +42,11 @@ A place for programming and experimenting with various methods and algorithms.
  - [Kernel Functions](vanilla_ml/kernel_functions.ipynb)
  - [Gaussian Processes](vanilla_ml/gaussian_processes.ipynb)
  - [Inference vs. Prediction pt.1 & 2](vanilla_ml/inference_vs_prediction_pt1.ipynb)
- - [Making an Algorithm Learn](vanilla_ml/learning_and_nn.ipynb)
+ - [Making a Algorithm Learn](vanilla_ml/learning_and_nn.ipynb)
  - [Principal Component Analysis](vanilla_ml/pca.py)
 
 ### Microeconomics
 
 - [Bayesian Demand Uncertainty and Forecasting](microeconomics/bayesian_demand_uncertainty.ipynb)
-- [Solving microeconomic optimization problems with JAX](microeconomics/jax_optimization.ipynb)
 - [Ride Hailing Services Regression Discontinuity](microeconomics/regression-discontinuity/)
+- [Marginal cost curves](microeconomics/marginal.ipynb)
